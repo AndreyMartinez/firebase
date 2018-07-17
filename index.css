@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+:root{
+  --text:'Gaegu';
+}
+html, body{
+  margin:0;
+  display:grid;
+  height: 100%;
+  font-family:var(--text);
+  font-size:1.4em;
+}
+.onePart{
+  display:flex;
+  width:100%;
+  height:100%;
+  background-color:#17bebb;
+  }
+.contentOne{
+  margin:2px auto;
+  display: flex;
+align-items: center;
+ flex-direction: column-reverse;
+color:#2e282a;
+}
+.topContent{
+  margin-bottom:0;
+}
+/*Second */
+.secondPart{
+  display:flex;
+  width:100%;
+  height:100%;
+  background-color:#2e282a;
+}
+.contentSecond{
+ margin:2px auto;
+  display: flex;
+align-items: center;
+ flex-direction:column;
+color:#17bebb;
+}
+.bottomContent{
+  margin-top:0;
+}
+.button{
+  font-family:var(--text);
+  font-size:0.7em;
+  color:#2e282a;
+   border:0;
+  width: 50%;
+    height: 17%;
+    border-radius: 4px;
+  background-color:#17bebb;
+  
+}
+
